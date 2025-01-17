@@ -4,6 +4,9 @@
   <ul>
     <li *ngFor="let animal of animals">
       Nome: {{ animal.name }} - Especie: {{ animal.type }}
+
+      <button (click)="showAge(animal)">Motrar Idade</button>
     </li>
   </ul>
+  <h3>{{ animalDetails }}</h3>
 </div>
