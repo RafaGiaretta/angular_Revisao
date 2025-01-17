@@ -1,5 +1,12 @@
 # CursoAngular
 
+## Antes do README padrao do ANGULAR
+
+Este repositorio esta sendo utilizado para armazenar a revisao que estou fazendo sobre o desenvolvimento em angular de um front-end, atravez das aulas do Matheus Battisti - da escola Hora de Codar.
+A playlist que estou utilizando é gratuita, e está disponivel no [youtube](https://www.youtube.com/watch?v=vJt_K1bFUeA&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw)!
+
+---
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
 
 ## Development server
