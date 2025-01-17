@@ -1,10 +1,13 @@
-<h1>Hello Word</h1>
-<app-first-component></app-first-component>
-<app-parent-data [name]="userName" [userData]="userData"></app-parent-data>
-<app-diretives> </app-diretives>
-<app-if-render></app-if-render>
-<app-eventos></app-eventos>
-<app-emitter></app-emitter>
-<app-list-render></app-list-render>
-<app-pipes></app-pipes>
-<app-two-way-binding></app-two-way-binding>
+<h1>HEADER</h1>
+<nav>
+  <a routerLink="/">Home</a>
+  <a routerLink="/list">Lista</a>
+  <a routerLink="/diretives">Diretivas</a>
+  <a routerLink="/emitter">Emitters</a>
+  <a routerLink="/events">Eventos</a>
+  <a routerLink="/first-comp">Primeiro componente</a>
+  <a routerLink="/pipes">Pipes</a>
+
+  <router-outlet> </router-outlet>
+  <h1>FOOTER</h1>
+</nav>
