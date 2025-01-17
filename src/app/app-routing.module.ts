@@ -6,6 +6,7 @@ import { DiretivesComponent } from './components/diretives/diretives.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { EventosComponent } from './components/eventos/eventos.component';
 import { PipesComponent } from './components/pipes/pipes.component';
+import { ItemDetailComponent } from './components/item-detail/item-detail.component';
 
 const routes: Routes = [
   { path: '', component: FirstComponentComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'emitter', component: EmitterComponent },
   { path: 'events', component: EventosComponent },
   { path: 'pipes', component: PipesComponent },
+  { path: 'list/:id', component: ItemDetailComponent },
 ];
 
 @NgModule({
