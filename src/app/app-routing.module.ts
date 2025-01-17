@@ -13,7 +13,6 @@ const routes: Routes = [
   { path: 'diretives', component: DiretivesComponent },
   { path: 'emitter', component: EmitterComponent },
   { path: 'events', component: EventosComponent },
-  { path: 'first-comp', component: FirstComponentComponent },
   { path: 'pipes', component: PipesComponent },
 ];
 
